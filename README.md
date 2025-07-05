@@ -2,7 +2,10 @@
 
 Um aplicativo React que permite buscar e visualizar informações de usuários do GitHub, incluindo seus repositórios e seguidores.
 
+Tela Inicial:
 ![img1](./public/img1.png)
+
+Tela com o perfil pesquisado:
 ![img2](./public/img2.png)
 
 ## 🛠️ Tecnologias

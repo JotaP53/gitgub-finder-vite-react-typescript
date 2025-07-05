@@ -47,6 +47,6 @@ Contribuições são bem-vindas! Sinta-se livre para abrir uma *issue* ou *pull 
 3. Commit suas mudanças (`git commit -m 'feat: minha nova feature'`)
 4. Push para a branch (`git push origin feature/sua-feature`)
 
-5. ## 📝 Licença
+## 📝 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.

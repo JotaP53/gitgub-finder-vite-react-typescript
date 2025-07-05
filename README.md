@@ -1,69 +1,49 @@
-# React + TypeScript + Vite
+# 📂 GitHub Finder - Buscador de Usuários
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um aplicativo React que permite buscar e visualizar informações de usuários do GitHub, incluindo seus repositórios e seguidores.
 
-Currently, two official plugins are available:
+![img1](./screenshot.png)
+![img2](./screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologias
+- React + Vite
+- TypeScript
+- Axios
+- TailwindCSS
+- GitHub API
 
-## Expanding the ESLint configuration
+## 🚀 Como rodar localmente
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Clone o repositório:
+```bash
+git clone https://github.com/JotaP53/gitgub-finder-vite-react-typescript.git
+cd gitgub-finder-vite-react-typescript
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Instale as dependências:
+```bash
+npm install
 ```
+
+Rode o projeto:
+```bash
+npm run dev
+```
+
+## ✅ Funcionalidades
+- 🔍 Buscar usuários do GitHub
+- 📄 Ver detalhes do perfil
+- 📁 Listar repositórios públicos
+
+## 🤝 Contribuindo
+
+Contribuições são bem-vindas! Sinta-se livre para abrir uma *issue* ou *pull request*.
+
+1. Faça um fork
+2. Crie uma branch (`git checkout -b feature/sua-feature`)
+3. Commit suas mudanças (`git commit -m 'feat: minha nova feature'`)
+4. Push para a branch (`git push origin feature/sua-feature`)
+
+5. ## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.

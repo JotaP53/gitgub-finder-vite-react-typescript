@@ -2,8 +2,8 @@
 
 Um aplicativo React que permite buscar e visualizar informações de usuários do GitHub, incluindo seus repositórios e seguidores.
 
-![img1](./screenshot.png)
-![img2](./screenshot.png)
+![img1](./public/img1.png)
+![img2](./public/img2.png)
 
 ## 🛠️ Tecnologias
 - React + Vite
